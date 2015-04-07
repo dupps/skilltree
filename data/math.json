@@ -1,0 +1,134 @@
+{
+  "nodes":[
+    {"name":"Grundlagen","group":1},
+    {"name":"Grundrechenarten","group":1},
+    {"name":"Rechengesetze","group":1},
+
+    {"name":"Grundrechnung","group":2},
+    {"name":"Kürzen","group":2},
+    {"name":"Kehrwert","group":2},
+
+    {"name":"Potenzen","group":3},
+    {"name":"Wurzeln","group":3},
+    {"name":"Logarithmus","group":3},
+
+    {"name":"Terme & Variabeln","group":4},
+    {"name":"Gleichungen","group":4},
+    {"name":"Ungleichungen","group":4},
+
+    {"name":"Bruchgleichungen","group":5},
+
+    {"name":"Dreisatz","group":6},
+    {"name":"Proportionalität","group":6},
+    {"name":"Zins","group":6},
+
+    {"name":"Mittelwert","group":7},
+    {"name":"Durchschnitt","group":7},
+    {"name":"Erwartungswert","group":7},
+
+    {"name":"Zufall","group":8},
+    {"name":"Häufigkeit","group":8},
+    {"name":"LaPlace","group":8},
+    {"name":"Binomialkoeffizient","group":8},
+    {"name":"Bedingte Wahrscheinlichkeiten","group":8},
+    {"name":"Verteilungen","group":8},
+
+    {"name":"Flächen","group":9},
+    {"name":"Körper","group":9},
+    {"name":"Winkel","group":9},
+
+    {"name":"Matrizenrechnung","group":10},
+    {"name":"Determinante","group":10},
+
+    {"name":"Vektoren","group":11},
+    {"name":"Vektorenrechnung","group":11},
+    {"name":"Betrag","group":11},
+    {"name":"Analytische Geometrie","group":11},
+
+    {"name":"Funktionen","group":12},
+    {"name":"Linear","group":12},
+    {"name":"Quadratisch","group":12},
+    {"name":"Exponentiell","group":12},
+
+    {"name":"Rechenregeln","group":13},
+    {"name":"Steigungen","group":13},
+    {"name":"Pole und Nullstellen","group":13},
+    {"name":"Wende- und Sattelpunkte","group":13},
+
+    {"name":"Flächen integrieren","group":14},
+    {"name":"Rechenregeln","group":14},
+    {"name":"Partielle Integration","group":14},
+    {"name":"Höhere Analysis","group":14},
+
+    {"name":"Sinus","group":15},
+    {"name":"Cosinus","group":15},
+    {"name":"Tangens","group":15}
+  ],
+  "links":[
+    {"source":0,"target":1,"value":1},
+    {"source":1,"target":2,"value":1},
+    {"source":2,"target":3,"value":5},
+    {"source":2,"target":6,"value":5},
+    {"source":2,"target":9,"value":5},
+    {"source":2,"target":13,"value":5},
+    {"source":2,"target":25,"value":5},
+
+    {"source":3,"target":4,"value":1},
+    {"source":4,"target":5,"value":1},
+    {"source":5,"target":12,"value":5},
+
+    {"source":13,"target":14,"value":1},
+    {"source":14,"target":15,"value":1},
+    {"source":15,"target":16,"value":5},
+
+    {"source":16,"target":17,"value":1},
+    {"source":17,"target":18,"value":1},
+    {"source":18,"target":19,"value":5},
+
+    {"source":19,"target":20,"value":1},
+    {"source":20,"target":21,"value":1},
+    {"source":21,"target":22,"value":1},
+    {"source":22,"target":23,"value":1},
+    {"source":23,"target":24,"value":1},
+
+    {"source":6,"target":7,"value":1},
+    {"source":7,"target":8,"value":1},
+    {"source":8,"target":12,"value":5},
+    {"source":8,"target":34,"value":5},
+
+    {"source":9,"target":10,"value":1},
+    {"source":10,"target":11,"value":1},
+    {"source":11,"target":16,"value":5},
+    {"source":11,"target":28,"value":5},
+
+    {"source":25,"target":26,"value":1},
+    {"source":26,"target":27,"value":1},
+    {"source":27,"target":28,"value":5},
+    {"source":27,"target":46,"value":5},
+
+    {"source":28,"target":29,"value":1},
+    {"source":29,"target":30,"value":5},
+
+    {"source":30,"target":31,"value":1},
+    {"source":31,"target":32,"value":1},
+    {"source":32,"target":33,"value":1},
+
+    {"source":34,"target":35,"value":1},
+    {"source":35,"target":36,"value":1},
+    {"source":36,"target":37,"value":1},
+    {"source":37,"target":38,"value":5},
+    {"source":37,"target":46,"value":5},
+
+    {"source":38,"target":39,"value":1},
+    {"source":39,"target":40,"value":1},
+    {"source":40,"target":41,"value":1},
+    {"source":41,"target":42,"value":5},
+
+    {"source":42,"target":43,"value":1},
+    {"source":43,"target":44,"value":1},
+    {"source":44,"target":45,"value":1},
+
+    {"source":46,"target":47,"value":1},
+    {"source":47,"target":48,"value":1}
+  ]
+}
