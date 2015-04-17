@@ -59,7 +59,7 @@
           .style("fill", function(d) { return color(d.group); })
           .call(force.drag);
 
-      if (window.content.localStorage["labels"] == 'true') {
+      if (window.localStorage && window.localStorage["labels"] == 'true') {
         var labels = gnodes.append("text")
             .text(function(d) { return d.name; });
       }
@@ -78,14 +78,16 @@
 
     window.onkeyup = function(e) {
       var key = e.keyCode ? e.keyCode : e.which;
-      if (key == 38) {
-        //up
-        window.content.localStorage["labels"] = true;
-        location.reload();
-      } else if (key == 40) {
-        //down
-        window.content.localStorage["labels"] = false;
-        location.reload();
+      if(window.localStorage) {
+        if (key == 38) {
+          //up
+          window.localStorage["labels"] = true;
+          location.reload();
+        } else if (key == 40) {
+          //down
+          window.localStorage["labels"] = false;
+          location.reload();
+        }
       }
     }
     </script>
